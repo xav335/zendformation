@@ -24,5 +24,10 @@ return array(
 		'template_path_stack' => array(
 			'POTM' => __DIR__. '/../view'
 		)
+	),
+	'view_helpers' => array(
+		'invokables' => array(
+			'MyHelperClass' => 'POTM\View\Helper\MyHelperClass'
+		)
 	)
 );
